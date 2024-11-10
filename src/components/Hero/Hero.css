@@ -1,0 +1,48 @@
+.hero__wrapp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+flex-direction: row;
+}
+
+
+.hero-img{
+    width: 100%;
+
+}
+.hero__wrapp-about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h2{
+        max-width: 600px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+text-transform: uppercase;
+    }
+    p{
+       
+        max-width: 365px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+.arrow{
+    width: max-content;
+}
+.cf{
+display: flex;
+flex-direction:row;
+&:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+}
+
+.box__wrapp {
+    .hero__wrapp {
+        flex-direction: row-reverse;
+    }
+}
